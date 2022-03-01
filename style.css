@@ -1,0 +1,96 @@
+.heading{
+    font-size:23;
+    width:100%;
+    margin:0px
+}
+.note{
+    font-size: 15px;
+color: black;
+}
+body{
+    background-size: cover;
+}
+.div_speed{
+    float:right;
+}
+.div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed
+{
+    font-size:23;
+margin:15px
+}
+.div_volume{
+    float: right;
+}
+.div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#volume
+{
+    font-size:23;
+margin:15px
+}
+.play_button{
+    width:130px;
+    font-size:25px;
+    margin-top: 600px;
+margin-left: 400px;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    
+}
+.stop_button{
+    width:130px;
+    font-size:25px;
+display: none;
+margin-top: 600px;
+margin-left: 400px;
+}
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
